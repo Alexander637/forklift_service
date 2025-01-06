@@ -4,3 +4,4 @@
 *forklift_service/app/__pycache__
 *forklift_service/app/__init__.py
 *forklift_service/app/migrations
+*.DS_Store
