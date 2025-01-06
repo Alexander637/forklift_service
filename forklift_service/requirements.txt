@@ -1,0 +1,7 @@
+asgiref==3.8.1
+Django==5.1.4
+django-allauth==65.3.1
+django-filter==24.3
+django-tables2==2.7.5
+psycopg2-binary==2.9.10
+sqlparse==0.5.3

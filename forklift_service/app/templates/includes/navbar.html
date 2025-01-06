@@ -1,0 +1,14 @@
+<nav>
+    <ul>
+        <li><a href="{% url 'search_machine' %}">Поиск машины</a></li>
+        {% if user.is_authenticated %}
+            <li><a href="{% url 'machine_list' %}">Машины</a></li>
+            <li><a href="{% url 'maintenance_list' %}">ТО</a></li>
+            <li><a href="{% url 'complaint_list' %}">Рекламации</a></li>
+            <li><a href="{% url 'dashboard' %}">Главная</a></li>
+            <li><a href="{% url 'account_logout' %}">Выйти</a></li>
+        {% else %}
+            <li><a href="{% url 'login' %}">Войти</a></li>
+        {% endif %}
+    </ul>
+</nav>

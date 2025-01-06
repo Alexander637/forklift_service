@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}Личный кабинет{% endblock %}
+
+{% block content %}
+<header>
+    <div class="header-content">
+        <div class="logo">
+            {% comment %} <img src="{% static 'images/logo.png' %}" alt="Логотип"> {% endcomment %}
+        </div>
+        <div class="header-info">
+            <p>+9999999, Telegram</p>
+        </div>
+    </div>
+    <h1>Электронная сервисная книжка "Мой Силант"</h1>
+</header>
+
+<section class="main-content">
+    <div class="client-info">
+        <h2>Клиент / Сервисная компания: {{ user.username }}</h2>
+        <p>Информация о комплектации и технических характеристиках Вашей техники</p>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-button" onclick="showTab('info')">Общая информация</button>
+        <button class="tab-button" onclick="showTab('maintenance')">ТО</button>
+        <button class="tab-button" onclick="showTab('claims')">Рекламации</button>
+    </div>
+
+    <div id="info" class="tab-content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Машина</th>
+                    <th>Параметры</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for machine in machines %}
+                <tr>
+                    <td>{{ machine.name }}</td>
+                    <td>{{ machine.details }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div id="maintenance" class="tab-content" style="display: none;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Машина</th>
+                    <th>ТО</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for maintenance in maintenances %}
+                <tr>
+                    <td>{{ maintenance.machine }}</td>
+                    <td>{{ maintenance.details }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div id="claims" class="tab-content" style="display: none;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Машина</th>
+                    <th>Рекламации</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for claim in claims %}
+                <tr>
+                    <td>{{ claim.machine }}</td>
+                    <td>{{ claim.details }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<footer>
+    <p>+9999999, Telegram</p>
+    <p>Мой Силант © 2022</p>
+</footer>
+{% endblock %}

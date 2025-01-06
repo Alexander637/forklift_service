@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load django_tables2 %} 
+
+{% block title %}Таблицы{% endblock %}
+
+{% block content %}
+<h1>{{ verbose_name_plural }}</h1>
+<form method="get">
+    {{ filter.form.as_p }}
+    <button type="submit">Применить фильтры</button>
+</form>
+<div>
+    {% render_table table %}
+</div>
+{% endblock %}

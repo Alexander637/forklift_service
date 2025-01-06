@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DB_NAME=django_db
+      - DB_USER=django
+      - DB_PASSWORD=password
+      - DB_HOST=db
+      - DB_PORT=5432
+    command: python manage.py runserver 0.0.0.0:8000
+    networks:
+      - forklift_network
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: django
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: django_db
+    ports:
+      - "5432:5432"
+    networks:
+      - forklift_network
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+networks:
+  forklift_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
