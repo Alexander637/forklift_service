@@ -1,0 +1,170 @@
+[
+    {
+        "model": "app.complaint",
+        "pk": 1,
+        "fields": {
+            "machine": 1,
+            "failure_date": "2022-04-01",
+            "operating_hours": 123,
+            "failure_node": 33,
+            "failure_description": "повышенный шум",
+            "recovery_method": 38,
+            "spare_parts": "прокладки, прочие материалы",
+            "recovery_date": "2022-04-08"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 2,
+        "fields": {
+            "machine": 1,
+            "failure_date": "2022-04-02",
+            "operating_hours": 129,
+            "failure_node": 37,
+            "failure_description": "проскальзывание",
+            "recovery_method": 38,
+            "spare_parts": "шестерня ведущая",
+            "recovery_date": "2022-04-07"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 3,
+        "fields": {
+            "machine": 1,
+            "failure_date": "2022-03-30",
+            "operating_hours": 112,
+            "failure_node": 37,
+            "failure_description": "блокировка колес",
+            "recovery_method": 39,
+            "spare_parts": null,
+            "recovery_date": "2022-03-31"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 4,
+        "fields": {
+            "machine": 2,
+            "failure_date": "2022-02-06",
+            "operating_hours": 123,
+            "failure_node": 32,
+            "failure_description": "блокировка колес",
+            "recovery_method": 38,
+            "spare_parts": "колесо",
+            "recovery_date": "2022-02-11"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 5,
+        "fields": {
+            "machine": 3,
+            "failure_date": "2022-05-05",
+            "operating_hours": 38,
+            "failure_node": 36,
+            "failure_description": "разрушение подшипника",
+            "recovery_method": 38,
+            "spare_parts": "подшипник",
+            "recovery_date": "2022-05-07"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 6,
+        "fields": {
+            "machine": 4,
+            "failure_date": "2022-06-17",
+            "operating_hours": 112,
+            "failure_node": 36,
+            "failure_description": "разрушение подшипника",
+            "recovery_method": 38,
+            "spare_parts": "подшипник",
+            "recovery_date": "2022-06-25"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 7,
+        "fields": {
+            "machine": 5,
+            "failure_date": "2021-10-26",
+            "operating_hours": 142,
+            "failure_node": 36,
+            "failure_description": "разрушение подшипника",
+            "recovery_method": 38,
+            "spare_parts": "подшипник",
+            "recovery_date": "2021-11-02"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 8,
+        "fields": {
+            "machine": 6,
+            "failure_date": "2021-12-31",
+            "operating_hours": 61,
+            "failure_node": 34,
+            "failure_description": "разрушение верхнего ролика",
+            "recovery_method": 38,
+            "spare_parts": "ролик",
+            "recovery_date": "2022-01-05"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 9,
+        "fields": {
+            "machine": 7,
+            "failure_date": "2022-07-28",
+            "operating_hours": 56,
+            "failure_node": 33,
+            "failure_description": "течь масла",
+            "recovery_method": 38,
+            "spare_parts": "прокладки",
+            "recovery_date": "2022-08-01"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 10,
+        "fields": {
+            "machine": 8,
+            "failure_date": "2022-09-07",
+            "operating_hours": 47,
+            "failure_node": 35,
+            "failure_description": "течь масла",
+            "recovery_method": 38,
+            "spare_parts": "прокладки",
+            "recovery_date": "2022-09-09"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 11,
+        "fields": {
+            "machine": 9,
+            "failure_date": "2022-02-01",
+            "operating_hours": 22,
+            "failure_node": 33,
+            "failure_description": "не заводится",
+            "recovery_method": 39,
+            "spare_parts": null,
+            "recovery_date": "2022-02-10"
+        }
+    },
+    {
+        "model": "app.complaint",
+        "pk": 12,
+        "fields": {
+            "machine": 10,
+            "failure_date": "2021-10-11",
+            "operating_hours": 59,
+            "failure_node": 33,
+            "failure_description": "течь масла",
+            "recovery_method": 38,
+            "spare_parts": "прокладки",
+            "recovery_date": "2021-10-21"
+        }
+    }
+]

@@ -1,0 +1,23 @@
+{% if search_results %}
+<div class="results">
+    <h3>Результат поиска:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Параметр</th>
+                <th>Значение</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for param, value in search_results.items %}
+            <tr>
+                <td>{{ param }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<p>Данных не найдено.</p>
+{% endif %}

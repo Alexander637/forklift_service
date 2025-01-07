@@ -1,6 +1,6 @@
 <nav>
     <ul>
-        <li><a href="{% url 'search_machine' %}">Поиск машины</a></li>
+        <li><a href="{% url 'welcome' %}">Поиск машины</a></li>
         {% if user.is_authenticated %}
             <li><a href="{% url 'machine_list' %}">Машины</a></li>
             <li><a href="{% url 'maintenance_list' %}">ТО</a></li>

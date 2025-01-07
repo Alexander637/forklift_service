@@ -17,37 +17,47 @@
 
 <section class="search-section">
     <h2>Проверьте комплектацию и технические характеристики техники Силант</h2>
-    <form method="get" action="{% url 'search_machine' %}">
+    <form id="search-form" method="get" action="{% url 'search_machine' %}">
         <label for="serial-number">Заводской номер:</label>
         <input type="text" id="serial-number" name="serial_number" placeholder="Введите номер">
         <button type="submit">Поиск</button>
     </form>
 
-    {% if search_results %}
-    <div class="results">
-        <h3>Результат поиска:</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Параметр</th>
-                    <th>Значение</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for param, value in search_results.items %}
-                <tr>
-                    <td>{{ param }}</td>
-                    <td>{{ value }}</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+    <div id="search-results">
+        {% if search_results %}
+            {% include "partials/search_results.html" %}
+        {% endif %}
     </div>
-    {% endif %}
 </section>
 
 <footer>
     <p>+9999999, Telegram</p>
     <p>Мой Силант © 2022</p>
 </footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("search-form");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        fetch(form.action + "?" + new URLSearchParams(formData), {
+            method: "GET",
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",
+            },
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            const resultsContainer = document.getElementById("search-results");
+            resultsContainer.innerHTML = data.html;
+        })
+        .catch((error) => {
+            console.error("Ошибка поиска:", error);
+        });
+    });
+});
+</script>
 {% endblock %}

@@ -7,6 +7,8 @@ from .models import Machine, Maintenance, Complaint
 from .tables import MachineTable, MaintenanceTable, ComplaintTable
 from .filters import MachineFilter, MaintenanceFilter, ComplaintFilter
 from .forms import MachineSearchForm
+from django.template.loader import render_to_string
+from django.http import JsonResponse
 
 def home(request):
     return render(request, 'base.html')
@@ -20,17 +22,42 @@ def welcome_view(request):
 
 @login_required
 def dashboard_view(request):
-    return render(request, 'dashboard.html', {})
+    machines = Machine.objects.all()
+    maintenances = Maintenance.objects.all()
+    complaints = Complaint.objects.all()
+    
+    return render(request, 'dashboard.html', {
+        'machines': machines,
+        'maintenances': maintenances,
+        'complaints': complaints
+    })
+
 
 def search_machine_view(request):
     form = MachineSearchForm()
-    machine = None
-    if request.method == "POST":
-        form = MachineSearchForm(request.POST)
-        if form.is_valid():
-            serial_number = form.cleaned_data["machine_serial_number"]
-            machine = Machine.objects.filter(machine_serial_number=serial_number).first()
-    return render(request, "search_machine.html", {"form": form, "machine": machine})
+    search_results = None
+
+    if request.method == "GET" and request.GET.get("serial_number"):
+        serial_number = request.GET.get("serial_number")
+        machine = Machine.objects.filter(machine_serial_number=serial_number).first()
+
+        if machine:
+            search_results = {
+                "Зав. № машины": machine.machine_serial_number,
+                "Модель техники": machine.model_technique.name,
+                "Модель двигателя": machine.engine_model.name,
+                "Дата отгрузки": machine.shipment_date,
+            }
+        else:
+            search_results = {"Ошибка": "Машина с таким заводским номером не найдена."}
+
+        if request.headers.get("X-Requested-With") == "XMLHttpRequest":
+            html = render_to_string(
+                "partials/search_results.html", {"search_results": search_results}
+            )
+            return JsonResponse({"html": html})
+
+    return render(request, "welcome.html", {"form": form, "search_results": search_results})
 
 
 class MachineListView(LoginRequiredMixin, SingleTableMixin, FilterView):

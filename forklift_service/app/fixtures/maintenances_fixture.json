@@ -1,0 +1,470 @@
+[
+    {
+        "model": "app.maintenance",
+        "pk": 1,
+        "fields": {
+            "machine": 3,
+            "maintenance_type": 24,
+            "maintenance_date": "2021-10-05",
+            "operating_hours": 55,
+            "order_number": "#2022-32КЕ5СИЛ",
+            "order_date": "2021-10-03",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 2,
+        "fields": {
+            "machine": 8,
+            "maintenance_type": 24,
+            "maintenance_date": "2021-10-05",
+            "operating_hours": 54,
+            "order_number": "#2022-97КЕ18СИЛ",
+            "order_date": "2021-10-03",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 3,
+        "fields": {
+            "machine": 3,
+            "maintenance_type": 26,
+            "maintenance_date": "2021-11-02",
+            "operating_hours": 220,
+            "order_number": "#2022-81КЕ66СИЛ",
+            "order_date": "2021-10-31",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 4,
+        "fields": {
+            "machine": 8,
+            "maintenance_type": 26,
+            "maintenance_date": "2021-11-02",
+            "operating_hours": 225,
+            "order_number": "#2022-54КЕ17СИЛ",
+            "order_date": "2021-10-31",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 5,
+        "fields": {
+            "machine": 3,
+            "maintenance_type": 27,
+            "maintenance_date": "2021-12-10",
+            "operating_hours": 450,
+            "order_number": "#2022-72КЕ68СИЛ",
+            "order_date": "2021-12-08",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 6,
+        "fields": {
+            "machine": 8,
+            "maintenance_type": 27,
+            "maintenance_date": "2021-12-10",
+            "operating_hours": 422,
+            "order_number": "#2022-97КЕ11СИЛ",
+            "order_date": "2021-12-08",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 7,
+        "fields": {
+            "machine": 7,
+            "maintenance_type": 24,
+            "maintenance_date": "2021-12-25",
+            "operating_hours": 53,
+            "order_number": "#2022-77КЕ66СИЛ",
+            "order_date": "2021-12-23",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 8,
+        "fields": {
+            "machine": 7,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-01-19",
+            "operating_hours": 52,
+            "order_number": "#2022-27КЕ67СИЛ",
+            "order_date": "2022-01-17",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 9,
+        "fields": {
+            "machine": 7,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-01-22",
+            "operating_hours": 221,
+            "order_number": "#2022-96КЕ82СИЛ",
+            "order_date": "2022-01-20",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 10,
+        "fields": {
+            "machine": 6,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-02-02",
+            "operating_hours": 55,
+            "order_number": "#2022-6КЕ38СИЛ",
+            "order_date": "2022-01-31",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 11,
+        "fields": {
+            "machine": 3,
+            "maintenance_type": 25,
+            "maintenance_date": "2022-02-13",
+            "operating_hours": 1054,
+            "order_number": "#2022-56КЕ54СИЛ",
+            "order_date": "2022-02-11",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 12,
+        "fields": {
+            "machine": 8,
+            "maintenance_type": 25,
+            "maintenance_date": "2022-02-13",
+            "operating_hours": 1026,
+            "order_number": "#2022-88КЕ66СИЛ",
+            "order_date": "2022-02-11",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 13,
+        "fields": {
+            "machine": 7,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-02-16",
+            "operating_hours": 221,
+            "order_number": "#2022-5КЕ78СИЛ",
+            "order_date": "2022-02-14",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 14,
+        "fields": {
+            "machine": 7,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-03-01",
+            "operating_hours": 407,
+            "order_number": "#2022-16КЕ6СИЛ",
+            "order_date": "2022-02-27",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 15,
+        "fields": {
+            "machine": 5,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-03-02",
+            "operating_hours": 219,
+            "order_number": "#2022-38КЕ68СИЛ",
+            "order_date": "2022-02-28",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 16,
+        "fields": {
+            "machine": 6,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-03-14",
+            "operating_hours": 53,
+            "order_number": "#2022-70КЕ87СИЛ",
+            "order_date": "2022-03-12",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 17,
+        "fields": {
+            "machine": 2,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-03-26",
+            "operating_hours": 403,
+            "order_number": "#2022-42КЕ6СИЛ",
+            "order_date": "2022-03-24",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 18,
+        "fields": {
+            "machine": 6,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-04-09",
+            "operating_hours": 405,
+            "order_number": "#2022-34КЕ62СИЛ",
+            "order_date": "2022-04-07",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 19,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-04-11",
+            "operating_hours": 210,
+            "order_number": "#2022-16КЕ87СИЛ",
+            "order_date": "2022-04-09",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 20,
+        "fields": {
+            "machine": 2,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-05-03",
+            "operating_hours": 52,
+            "order_number": "#2022-21КЕ82СИЛ",
+            "order_date": "2022-05-01",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 21,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 25,
+            "maintenance_date": "2022-05-05",
+            "operating_hours": 1011,
+            "order_number": "#2022-22КЕ87СИЛ",
+            "order_date": "2022-05-03",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 22,
+        "fields": {
+            "machine": 9,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-05-19",
+            "operating_hours": 405,
+            "order_number": "#2022-77КЕ23СИЛ",
+            "order_date": "2022-05-17",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 23,
+        "fields": {
+            "machine": 2,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-05-31",
+            "operating_hours": 214,
+            "order_number": "#2022-31КЕ19СИЛ",
+            "order_date": "2022-05-29",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 8,
+        "fields": {
+            "machine": 8,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-06-01",
+            "operating_hours": 55,
+            "order_number": "#2022-10КЕ19СИЛ",
+            "order_date": "2022-05-30",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 25,
+        "fields": {
+            "machine": 8,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-06-29",
+            "operating_hours": 216,
+            "order_number": "#2022-92КЕ16СИЛ",
+            "order_date": "2022-06-27",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 26,
+        "fields": {
+            "machine": 2,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-07-08",
+            "operating_hours": 441,
+            "order_number": "#2022-84КЕ73СИЛ",
+            "order_date": "2022-07-06",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 27,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-07-23",
+            "operating_hours": 54,
+            "order_number": "#2022-72КЕ89СИЛ",
+            "order_date": "2022-07-21",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 28,
+        "fields": {
+            "machine": 9,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-08-06",
+            "operating_hours": 434,
+            "order_number": "#2022-55КЕ37СИЛ",
+            "order_date": "2022-08-04",
+            "performing_organization": 3
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 29,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-08-20",
+            "operating_hours": 206,
+            "order_number": "#2022-26КЕ57СИЛ",
+            "order_date": "2022-08-18",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 30,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 23,
+            "maintenance_date": "2022-09-01",
+            "operating_hours": 2053,
+            "order_number": "#2022-99КЕ12СИЛ",
+            "order_date": "2022-08-30",
+            "performing_organization": 2
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 31,
+        "fields": {
+            "machine": 4,
+            "maintenance_type": 23,
+            "maintenance_date": "2022-09-01",
+            "operating_hours": 2025,
+            "order_number": "#2022-50КЕ10СИЛ",
+            "order_date": "2022-08-30",
+            "performing_organization": 4
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 32,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 24,
+            "maintenance_date": "2022-09-04",
+            "operating_hours": 53,
+            "order_number": "#2022-58КЕ94СИЛ",
+            "order_date": "2022-09-02",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 33,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-09-27",
+            "operating_hours": 407,
+            "order_number": "#2022-54КЕ66СИЛ",
+            "order_date": "2022-09-25",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 34,
+        "fields": {
+            "machine": 1,
+            "maintenance_type": 26,
+            "maintenance_date": "2022-10-02",
+            "operating_hours": 202,
+            "order_number": "#2022-98КЕ93СИЛ",
+            "order_date": "2022-09-30",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 35,
+        "fields": {
+            "machine": 5,
+            "maintenance_type": 27,
+            "maintenance_date": "2022-11-09",
+            "operating_hours": 402,
+            "order_number": "#2022-82КЕ69СИЛ",
+            "order_date": "2022-11-07",
+            "performing_organization": 1
+        }
+    },
+    {
+        "model": "app.maintenance",
+        "pk": 36,
+        "fields": {
+            "machine": 5,
+            "maintenance_type": 23,
+            "maintenance_date": "2022-11-21",
+            "operating_hours": 2010,
+            "order_number": "#2022-78КЕ54СИЛ",
+            "order_date": "2022-11-19",
+            "performing_organization": 1
+        }
+    }
+]

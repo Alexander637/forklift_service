@@ -1,0 +1,353 @@
+[
+    {
+        "model": "app.reference",
+        "pk": 1,
+        "fields": {
+            "entity_name": "Model technique",
+            "name": "ПД2,0",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 2,
+        "fields": {
+            "entity_name": "Model technique",
+            "name": "ПГ1,5",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 3,
+        "fields": {
+            "entity_name": "Model technique",
+            "name": "ПД2,5",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 4,
+        "fields": {
+            "entity_name": "Model technique",
+            "name": "ПД3,0",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 5,
+        "fields": {
+            "entity_name": "Model technique",
+            "name": "ПД5,0",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 6,
+        "fields": {
+            "entity_name": "Model technique",
+            "name": "ПД1,5",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 7,
+        "fields": {
+            "entity_name": "Engine model",
+            "name": "MMZ-4D",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 8,
+        "fields": {
+            "entity_name": "Engine model",
+            "name": "ММЗ Д-243",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 9,
+        "fields": {
+            "entity_name": "Engine model",
+            "name": "Kubota D1803",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 10,
+        "fields": {
+            "entity_name": "Engine model",
+            "name": "Kubota V3300",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 11,
+        "fields": {
+            "entity_name": "Engine model",
+            "name": "Nissan K21",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 12,
+        "fields": {
+            "entity_name": "Transmission model",
+            "name": "HF30-VP010",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 13,
+        "fields": {
+            "entity_name": "Transmission model",
+            "name": "HF50-VP020",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 14,
+        "fields": {
+            "entity_name": "Transmission model",
+            "name": "10VA-00105",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 15,
+        "fields": {
+            "entity_name": "Transmission model",
+            "name": "10VB-00106",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 16,
+        "fields": {
+            "entity_name": "Drive axle model",
+            "name": "20VB-00102",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 17,
+        "fields": {
+            "entity_name": "Drive axle model",
+            "name": "20VA-00101",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 18,
+        "fields": {
+            "entity_name": "Drive axle model",
+            "name": "HA50-VP010",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 19,
+        "fields": {
+            "entity_name": "Drive axle model",
+            "name": "HA30-02020",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 20,
+        "fields": {
+            "entity_name": "Steering axle model",
+            "name": "VS20-00001",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 21,
+        "fields": {
+            "entity_name": "Steering axle model",
+            "name": "B350655A",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 22,
+        "fields": {
+            "entity_name": "Steering axle model",
+            "name": "VS30-00001",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 23,
+        "fields": {
+            "entity_name": "Maintenance type",
+            "name": "ТО-5 (2000м/час)",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 24,
+        "fields": {
+            "entity_name": "Maintenance type",
+            "name": "ТО-0 (50 м/час)",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 25,
+        "fields": {
+            "entity_name": "Maintenance type",
+            "name": "ТО-4 (1000м/час)",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 26,
+        "fields": {
+            "entity_name": "Maintenance type",
+            "name": "ТО-1 (200 м/час)",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 27,
+        "fields": {
+            "entity_name": "Maintenance type",
+            "name": "ТО-2 (400 м/час)",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 28,
+        "fields": {
+            "entity_name": "Organization",
+            "name": "самостоятельно",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 29,
+        "fields": {
+            "entity_name": "Organization",
+            "name": "ООО Силант",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 30,
+        "fields": {
+            "entity_name": "Organization",
+            "name": "ООО Промышленная техника",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 31,
+        "fields": {
+            "entity_name": "Organization",
+            "name": "ООО ФНС",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 32,
+        "fields": {
+            "entity_name": "Failure node",
+            "name": "Ведущий мост",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 33,
+        "fields": {
+            "entity_name": "Failure node",
+            "name": "Двигатель",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 34,
+        "fields": {
+            "entity_name": "Failure node",
+            "name": "Подъёмное устройство",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 35,
+        "fields": {
+            "entity_name": "Failure node",
+            "name": "Гидросистема",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 36,
+        "fields": {
+            "entity_name": "Failure node",
+            "name": "Управляемый мост",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 37,
+        "fields": {
+            "entity_name": "Failure node",
+            "name": "Трансмиссия",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 38,
+        "fields": {
+            "entity_name": "Recovery method",
+            "name": "Ремонт узла",
+            "description": ""
+        }
+    },
+    {
+        "model": "app.reference",
+        "pk": 39,
+        "fields": {
+            "entity_name": "Recovery method",
+            "name": "Замена узла",
+            "description": ""
+        }
+    }
+]

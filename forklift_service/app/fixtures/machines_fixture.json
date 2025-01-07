@@ -1,0 +1,212 @@
+[
+    {
+        "model": "app.machine",
+        "pk": 1,
+        "fields": {
+            "machine_serial_number": "0017",
+            "model_technique": 1,
+            "engine_model": 7,
+            "engine_serial_number": "7ML1035",
+            "transmission_model": 12,
+            "transmission_serial_number": "21D0108251",
+            "drive_axle_model": 16,
+            "drive_axle_serial_number": "21D0107997",
+            "steering_axle_model": 20,
+            "steering_axle_serial_number": "21D0093265",
+            "shipment_date": "2022-03-09",
+            "consignee": "ИП Трудников С.В.",
+            "delivery_address": "п. Знаменский, \nРесп. Марий Эл",
+            "additional_options": "1. Гидролинии с БРС;\n2. Дополнительеная установка кабины",
+            "service_company": 2
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 2,
+        "fields": {
+            "machine_serial_number": "0021",
+            "model_technique": 2,
+            "engine_model": 8,
+            "engine_serial_number": "112890",
+            "transmission_model": 13,
+            "transmission_serial_number": "20H0066",
+            "drive_axle_model": 17,
+            "drive_axle_serial_number": "20H0039",
+            "steering_axle_model": 21,
+            "steering_axle_serial_number": "KDBAC9685",
+            "shipment_date": "2022-01-14",
+            "consignee": "ООО \"ФПК21\"",
+            "delivery_address": "с. Акуловка, Московская обл.",
+            "additional_options": "Стандарт",
+            "service_company": 3
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 3,
+        "fields": {
+            "machine_serial_number": "0027",
+            "model_technique": 2,
+            "engine_model": 7,
+            "engine_serial_number": "167733",
+            "transmission_model": 13,
+            "transmission_serial_number": "20H0070",
+            "drive_axle_model": 17,
+            "drive_axle_serial_number": "20H0049",
+            "steering_axle_model": 20,
+            "steering_axle_serial_number": "KDBAH6583",
+            "shipment_date": "2022-04-28",
+            "consignee": "ООО \"МНС77\"",
+            "delivery_address": "г. Санкт-Петербург",
+            "additional_options": "1. Кабина с отопителем",
+            "service_company": 2
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 4,
+        "fields": {
+            "machine_serial_number": "0032",
+            "model_technique": 4,
+            "engine_model": 11,
+            "engine_serial_number": "2MU2983",
+            "transmission_model": 15,
+            "transmission_serial_number": "21K0116785",
+            "drive_axle_model": 19,
+            "drive_axle_serial_number": "21K0115910",
+            "steering_axle_model": 22,
+            "steering_axle_serial_number": " 00070422",
+            "shipment_date": "2022-05-27",
+            "consignee": "ООО \"ФПК21\"",
+            "delivery_address": "г. Челябинск, в/ч ",
+            "additional_options": "1. Кабина с отопителем;\n2. Медицинская аптечка;\n3. Проблесковый маячок;\n4. Знак аварийной остановки;\n5. Огнетушитель порошковый 5п;",
+            "service_company": 2
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 5,
+        "fields": {
+            "machine_serial_number": "0003",
+            "model_technique": 3,
+            "engine_model": 11,
+            "engine_serial_number": "2ME0639",
+            "transmission_model": 15,
+            "transmission_serial_number": "21D0108264",
+            "drive_axle_model": 19,
+            "drive_axle_serial_number": "21D0107988",
+            "steering_axle_model": 22,
+            "steering_axle_serial_number": "0821004",
+            "shipment_date": "2021-09-30",
+            "consignee": "ООО \"Ранский ЛПХ\"",
+            "delivery_address": "п. Опарино, Кировская обл.",
+            "additional_options": "Стандарт",
+            "service_company": 3
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 6,
+        "fields": {
+            "machine_serial_number": "0016",
+            "model_technique": 2,
+            "engine_model": 10,
+            "engine_serial_number": "049827",
+            "transmission_model": 14,
+            "transmission_serial_number": "21D0108256",
+            "drive_axle_model": 18,
+            "drive_axle_serial_number": "21D0108000",
+            "steering_axle_model": 21,
+            "steering_axle_serial_number": "21D0093244",
+            "shipment_date": "2021-12-20",
+            "consignee": "ООО \"Комплект-Поставка\"",
+            "delivery_address": "г. Санкт-Петербург",
+            "additional_options": "1. Кабина с отопителем;\n2. Каретка смещения + гидролинии;",
+            "service_company": 2
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 7,
+        "fields": {
+            "machine_serial_number": "0039",
+            "model_technique": 2,
+            "engine_model": 10,
+            "engine_serial_number": "000015",
+            "transmission_model": 14,
+            "transmission_serial_number": "22B0001",
+            "drive_axle_model": 18,
+            "drive_axle_serial_number": "22B3364",
+            "steering_axle_model": 21,
+            "steering_axle_serial_number": "00010622",
+            "shipment_date": "2022-07-18",
+            "consignee": "ООО \"РМК\"",
+            "delivery_address": "г. Москва",
+            "additional_options": "1. Высота подъёма вил - 4 500мм;\n2. Кабина с отопителем;\n3. Шины суперэластик;\n4. Прибор комбинированный КД8235;",
+            "service_company": 2
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 8,
+        "fields": {
+            "machine_serial_number": "0045",
+            "model_technique": 2,
+            "engine_model": 10,
+            "engine_serial_number": "000003",
+            "transmission_model": 14,
+            "transmission_serial_number": "22B0008",
+            "drive_axle_model": 18,
+            "drive_axle_serial_number": "22B3370",
+            "steering_axle_model": 21,
+            "steering_axle_serial_number": "00200622",
+            "shipment_date": "2022-08-30",
+            "consignee": "АО \"Зандер\"",
+            "delivery_address": "г. Краснодар",
+            "additional_options": "1. Кабина с отопителем;\n2. Каретка бокового смещения 1050мм;\n3. Блокировка реверса хода;\n4. Высота подъёма вил - 4800мм;\n5. Прибор комбинированный КД8235;",
+            "service_company": 2
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 9,
+        "fields": {
+            "machine_serial_number": "0019",
+            "model_technique": 2,
+            "engine_model": 10,
+            "engine_serial_number": "112893",
+            "transmission_model": 14,
+            "transmission_serial_number": "20H0069",
+            "drive_axle_model": 18,
+            "drive_axle_serial_number": "20H0041",
+            "steering_axle_model": 21,
+            "steering_axle_serial_number": "KDBAC9687",
+            "shipment_date": "2022-01-28",
+            "consignee": "ООО \"ФПК21\"",
+            "delivery_address": "г. Первоуральск, \nСвердловской обл.",
+            "additional_options": "1. Высота подъёма вил - 4 500мм;\n2. Центральный цилиндр подъёма ;\n3. Кабина с отопителем;\n4. Стрела безблочная Г-образная;",
+            "service_company": 4
+        }
+    },
+    {
+        "model": "app.machine",
+        "pk": 10,
+        "fields": {
+            "machine_serial_number": "0008",
+            "model_technique": 2,
+            "engine_model": 10,
+            "engine_serial_number": "2ME0753",
+            "transmission_model": 14,
+            "transmission_serial_number": "21D0108269",
+            "drive_axle_model": 18,
+            "drive_axle_serial_number": "21D0108011",
+            "steering_axle_model": 21,
+            "steering_axle_serial_number": "0821005",
+            "shipment_date": "2021-09-30",
+            "consignee": "ООО \"Комплект-Поставка\"",
+            "delivery_address": "г. Краснодар",
+            "additional_options": "1. Кабина с отопителем;",
+            "service_company": 4
+        }
+    }
+]
